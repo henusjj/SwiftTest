@@ -1,0 +1,34 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'SwiftTest' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SwiftTest
+
+  target 'SwiftTestTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SwiftTestUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+	#服务器请求
+	pod 'Alamofire'
+	#加载动画	
+	pod 'PKHUD'
+	#提示框
+	pod 'Toaster'
+	#
+	pod 'SwiftyJSON', '~> 4.0'
+
+	#自动布局框架，类似于Masonry
+	pod 'SnapKit', '~> 4.0.0'
+	
+    #oc库
+    pod 'CYLTabBarController','~> 1.17.4'
+	
+end
