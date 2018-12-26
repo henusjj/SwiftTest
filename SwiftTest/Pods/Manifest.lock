@@ -1,6 +1,7 @@
 PODS:
   - Alamofire (4.7.3)
   - CYLTabBarController (1.17.21)
+  - MJRefresh (3.1.15.7)
   - PKHUD (5.2.0)
   - SnapKit (4.0.1)
   - SwiftyJSON (4.2.0)
@@ -9,6 +10,7 @@ PODS:
 DEPENDENCIES:
   - Alamofire
   - CYLTabBarController (~> 1.17.4)
+  - MJRefresh
   - PKHUD
   - SnapKit (~> 4.0.0)
   - SwiftyJSON (~> 4.0)
@@ -18,6 +20,7 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - CYLTabBarController
+    - MJRefresh
     - PKHUD
     - SnapKit
     - SwiftyJSON
@@ -26,11 +29,12 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   CYLTabBarController: 56cd8b03847c6beb81184601df6a7933cd94be82
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
   PKHUD: dd5357ac65f26115c35c4a68e9b328053326c5fe
   SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
   Toaster: a6c9532de1ded8105e77376f7dffeb2e12b46dbb
 
-PODFILE CHECKSUM: b664152500a7a5e70845a472ddab0061eb7cc8b8
+PODFILE CHECKSUM: 8261caeb9b644960e2384094823c1d55ac16837f
 
 COCOAPODS: 1.5.3

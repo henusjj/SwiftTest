@@ -11,7 +11,6 @@ import UIKit
 //import TwoVController
 //import ThreeVController
 
-import CYLTabBarController
 
 
 class MainTabBarVContriller: NSObject {

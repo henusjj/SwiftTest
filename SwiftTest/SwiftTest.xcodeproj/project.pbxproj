@@ -21,6 +21,9 @@
 		4593660421D222A400794FFD /* OneVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4593660321D222A400794FFD /* OneVController.swift */; };
 		4593660621D222B000794FFD /* TwoVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4593660521D222B000794FFD /* TwoVController.swift */; };
 		4593660821D222BA00794FFD /* ThreeVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4593660721D222BA00794FFD /* ThreeVController.swift */; };
+		4593660C21D23C6600794FFD /* BaseNavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4593660B21D23C6600794FFD /* BaseNavigationVC.swift */; };
+		4593660E21D31E0000794FFD /* MJGitHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4593660D21D31E0000794FFD /* MJGitHeader.swift */; };
+		4593661021D31FA200794FFD /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4593660F21D31FA200794FFD /* Common.swift */; };
 		F9BAEA59979E4E17F51676E1 /* Pods_SwiftTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F446291E6F71C115ED7F9A /* Pods_SwiftTestUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +66,10 @@
 		4593660321D222A400794FFD /* OneVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneVController.swift; sourceTree = "<group>"; };
 		4593660521D222B000794FFD /* TwoVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoVController.swift; sourceTree = "<group>"; };
 		4593660721D222BA00794FFD /* ThreeVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeVController.swift; sourceTree = "<group>"; };
+		4593660B21D23C6600794FFD /* BaseNavigationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationVC.swift; sourceTree = "<group>"; };
+		4593660D21D31E0000794FFD /* MJGitHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJGitHeader.swift; sourceTree = "<group>"; };
+		4593660F21D31FA200794FFD /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		4593661121D3219C00794FFD /* BridHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridHeader.h; sourceTree = "<group>"; };
 		71A14465A5A32A0AA02687EB /* Pods-SwiftTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTest/Pods-SwiftTest.debug.xcconfig"; sourceTree = "<group>"; };
 		8EFAF3F7926A80C52A1897C1 /* Pods-SwiftTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTestUITests/Pods-SwiftTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		990BFEC4696C8BC98DE794C6 /* Pods-SwiftTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTestTests/Pods-SwiftTestTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -180,6 +187,9 @@
 		459365FA21D1CEB800794FFD /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				4593660D21D31E0000794FFD /* MJGitHeader.swift */,
+				4593660F21D31FA200794FFD /* Common.swift */,
+				4593661121D3219C00794FFD /* BridHeader.h */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -209,6 +219,7 @@
 			children = (
 				459365FE21D2106800794FFD /* BaseVController.swift */,
 				4593660121D21BF900794FFD /* MainTabBarVContriller.swift */,
+				4593660B21D23C6600794FFD /* BaseNavigationVC.swift */,
 			);
 			path = BaseViewConroller;
 			sourceTree = "<group>";
@@ -430,6 +441,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftTest/Pods-SwiftTest-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/CYLTabBarController/CYLTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
@@ -439,6 +451,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CYLTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
@@ -456,12 +469,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4593660E21D31E0000794FFD /* MJGitHeader.swift in Sources */,
 				4593660421D222A400794FFD /* OneVController.swift in Sources */,
 				459365FF21D2106900794FFD /* BaseVController.swift in Sources */,
 				459365CC21D1CC8800794FFD /* ViewController.swift in Sources */,
 				4593660821D222BA00794FFD /* ThreeVController.swift in Sources */,
 				459365CA21D1CC8800794FFD /* AppDelegate.swift in Sources */,
+				4593660C21D23C6600794FFD /* BaseNavigationVC.swift in Sources */,
 				4593660221D21BF900794FFD /* MainTabBarVContriller.swift in Sources */,
+				4593661021D31FA200794FFD /* Common.swift in Sources */,
 				4593660621D222B000794FFD /* TwoVController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -650,10 +666,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = shiyujin.SwiftTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = SwiftTest/Tool/BridHeader.h;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Debug;
 		};
@@ -672,10 +688,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = shiyujin.SwiftTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = SwiftTest/Tool/BridHeader.h;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Release;
 		};
