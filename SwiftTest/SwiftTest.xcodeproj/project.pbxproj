@@ -24,6 +24,7 @@
 		4593660C21D23C6600794FFD /* BaseNavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4593660B21D23C6600794FFD /* BaseNavigationVC.swift */; };
 		4593660E21D31E0000794FFD /* MJGitHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4593660D21D31E0000794FFD /* MJGitHeader.swift */; };
 		4593661021D31FA200794FFD /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4593660F21D31FA200794FFD /* Common.swift */; };
+		4593661321D4B15000794FFD /* OneVCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4593661221D4B15000794FFD /* OneVCTableViewCell.swift */; };
 		F9BAEA59979E4E17F51676E1 /* Pods_SwiftTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F446291E6F71C115ED7F9A /* Pods_SwiftTestUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +71,7 @@
 		4593660D21D31E0000794FFD /* MJGitHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJGitHeader.swift; sourceTree = "<group>"; };
 		4593660F21D31FA200794FFD /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		4593661121D3219C00794FFD /* BridHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridHeader.h; sourceTree = "<group>"; };
+		4593661221D4B15000794FFD /* OneVCTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneVCTableViewCell.swift; sourceTree = "<group>"; };
 		71A14465A5A32A0AA02687EB /* Pods-SwiftTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTest/Pods-SwiftTest.debug.xcconfig"; sourceTree = "<group>"; };
 		8EFAF3F7926A80C52A1897C1 /* Pods-SwiftTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTestUITests/Pods-SwiftTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		990BFEC4696C8BC98DE794C6 /* Pods-SwiftTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTestTests/Pods-SwiftTestTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 		459365F821D1CEAD00794FFD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4593661221D4B15000794FFD /* OneVCTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -474,6 +477,7 @@
 				459365FF21D2106900794FFD /* BaseVController.swift in Sources */,
 				459365CC21D1CC8800794FFD /* ViewController.swift in Sources */,
 				4593660821D222BA00794FFD /* ThreeVController.swift in Sources */,
+				4593661321D4B15000794FFD /* OneVCTableViewCell.swift in Sources */,
 				459365CA21D1CC8800794FFD /* AppDelegate.swift in Sources */,
 				4593660C21D23C6600794FFD /* BaseNavigationVC.swift in Sources */,
 				4593660221D21BF900794FFD /* MainTabBarVContriller.swift in Sources */,

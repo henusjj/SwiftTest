@@ -14,7 +14,7 @@ class BaseVController: UIViewController {
         super.viewDidLoad()
 //        统一背景颜色
         self.view.backgroundColor = UIColor.white
-        
+        self.edgesForExtendedLayout = []
     }
     
 }
